@@ -1,0 +1,232 @@
+/** Layout 1 **/
+
+.layout_1 {
+  height: 80vh;
+  position: relative;
+  
+  
+  overflow: hidden;
+}
+
+#banner_1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 20%, black);
+}
+
+
+.fade-img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-img.active {
+    opacity: 1;
+}
+
+
+.layout_1_content {
+  position: absolute;
+  z-index: 5;
+  top: 40%;
+  left: 30px;
+  
+  width: 100%;
+}
+
+
+
+.layout_1_title_container {
+  display: flex;
+  position: relative;
+}
+
+
+.animeted_title {
+  color: #FF4747;
+  font-size: 48px;
+  font-weight: 800;
+  text-shadow: 2px 2px 6px #000000;
+  transition: color 2s ease;
+}
+
+.typed-cursor {
+  color: #191919;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+
+
+.animeted_disc {
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 0;
+  width: 70%;
+  
+  transition: opacity 2s ease;
+  position: absolute;
+  color: #F1FFDE;
+  text-shadow: 2px 2px 6px #000000;
+  margin-left: 20px;
+}
+
+.animeted_disc.active {
+  opacity: 1;
+}
+
+
+
+/** Layout 2 **/
+
+.layout_2 {
+  margin: 50px 0 0 0;
+}
+
+.layout_2_info {
+  margin: 0 20px 40px 22px;
+}
+
+.layout_2_title {
+  margin: 0 0 12px 0;
+}
+
+.layout_2_disc {
+  font-size: 14px;
+  color: #404040;
+}
+
+.last_update {
+  color: #000000;
+  font-weight: 600;
+}
+
+
+
+.data-box {
+  height: 100px;
+  width: 168px;
+  background-color: #D3DBC9;
+  border-radius: 14px;
+  padding: 14px;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  box-shadow: 1px 1px 10px #DDE3D7;
+}
+
+.box-title-container {
+  display: flex;
+  align-self: flex-start;
+}
+
+.box-title {
+  color: #404040;
+  font-weight: 700;
+}
+
+.box-data-container {
+  flex: 1;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data_value {
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+}
+
+
+.boxs_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 196px);
+  gap: 30px;
+  justify-content: center;
+}
+
+.small_data_box_container {
+  margin: 50px 0 0 0;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 30px;
+  justify-content: center;
+}
+
+
+.gaza_data_box, .west_bank_data_box {
+  height: 330px;
+  width: 400px;
+  border-radius: 10px;
+  
+}
+
+.small_data_box_header {
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 4px solid #8B8B8B;
+}
+
+
+.small_data_box_content {
+  padding: 18px 30px 0 30px;
+}
+
+.small_data_box_points {
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.small_data_box_point_value {
+  font-weight: 700;
+}
+
+
+/** Layout 3 **/
+.layout_3 {
+  margin: 40px 20px 0 22px;
+}
+
+
+.layout_3_heading {
+  margin: 0 0 30px 0;
+}
+
+
+
+.watermelon_layout_3 {
+  height: 55px;
+  position: relative;
+  top: 20px;
+}
+
+
+.layout_3_title {
+  margin: 0 0 10px 10px;
+}
+
+.layout_3_info {
+  margin: 0 0 0 36px;
+}
+
+.layout_3_points {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+}
+
+.layout_3_footer {
+  font-size: 16px;
+  margin: 30px 0 0 0;
+}

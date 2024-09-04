@@ -1,0 +1,9 @@
+.footer-section {
+  margin: 60px 0 0 0;
+  height: 60px;
+  background-color: #F1F8E8;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
