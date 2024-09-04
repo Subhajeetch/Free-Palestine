@@ -58,3 +58,22 @@ nav button {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px); 
 }
+
+
+@media(max-width: 550px) {
+  .logo {
+  height: 55px
+  }
+  
+  nav a {
+    margin-right: 16px;
+    font-size: 14px;
+  }
+  
+  nav button {
+    height: 32px;
+    width: 86px;
+    font-size: 15px;
+   }
+  
+}
