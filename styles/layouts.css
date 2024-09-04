@@ -48,7 +48,7 @@
 
 .animeted_title {
   color: #FF4747;
-  font-size: 48px;
+  font-size: 88px;
   font-weight: 800;
   text-shadow: 2px 2px 6px #000000;
   transition: color 2s ease;
@@ -56,14 +56,14 @@
 
 .typed-cursor {
   color: #191919;
-  font-size: 48px;
+  font-size: 88px;
   font-weight: 800;
 }
 
 
 
 .animeted_disc {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 700;
   opacity: 0;
   width: 70%;
@@ -78,6 +78,22 @@
 .animeted_disc.active {
   opacity: 1;
 }
+
+
+
+@media(max-width: 550px) {
+  .animeted_title, .typed-cursor {
+    font-size: 34px;
+  }
+  
+  .animeted_disc {
+    font-size: 17px;
+  }
+}
+
+
+
+
 
 
 
