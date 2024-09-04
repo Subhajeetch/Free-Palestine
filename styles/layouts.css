@@ -246,3 +246,25 @@
   font-size: 16px;
   margin: 30px 0 0 0;
 }
+
+
+
+
+
+
+
+
+
+@media (min-width: 1000px) {
+  .layout_1_content {
+    margin-left: 120px;
+  }
+  
+  .layout_2_info {
+    margin-left: 120px;
+  }
+  
+  .layout_3 {
+    margin-left: 120px;
+  }
+}
