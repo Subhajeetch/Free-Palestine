@@ -1,7 +1,7 @@
 const headerHTML = document.querySelector('.header');
 
 headerHTML.innerHTML = `<nav>
-     <a class="logo_a" href="#"><img class="logo" src="/Images/logo2.png" alt="free-palestine-logo"></a>
+     <a class="logo_a" href="#"><img class="logo" src="Images/logo2.png" alt="free-palestine-logo"></a>
      
      <div class="strech-div"></div>
      
