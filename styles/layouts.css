@@ -3,8 +3,6 @@
 .layout_1 {
   height: 80vh;
   position: relative;
-  
-  
   overflow: hidden;
 }
 
@@ -173,17 +171,18 @@
   margin: 50px 0 0 0;
   
   display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
+  grid-template-columns: repeat(auto-fit, 330px);
   gap: 30px;
+  
   justify-content: center;
 }
 
 
 .gaza_data_box, .west_bank_data_box {
   height: 330px;
-  width: 400px;
+  width: 330px;
   border-radius: 10px;
-  
+  justify-content: center;
 }
 
 .small_data_box_header {
@@ -247,6 +246,20 @@
   margin: 30px 0 0 0;
 }
 
+
+@media(max-width: 550px) {
+    .layout_3_heading {
+        font-size: 20px;
+    }
+    
+    .watermelon_layout_3 {
+        height: 48px;
+    }
+    
+    .layout_3_title {
+        font-size: 16px;
+    }
+}
 
 
 
