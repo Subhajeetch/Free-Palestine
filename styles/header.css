@@ -62,18 +62,18 @@ nav button {
 
 @media(max-width: 550px) {
   .logo {
-  height: 55px
+  height: 48px
   }
   
   nav a {
-    margin-right: 16px;
-    font-size: 14px;
+    margin-right: 10px;
+    font-size: 12px;
   }
   
   nav button {
     height: 32px;
-    width: 86px;
-    font-size: 15px;
+    width: 88px;
+    font-size: 14px;
    }
   
 }

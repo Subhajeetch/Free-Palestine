@@ -83,11 +83,11 @@
 
 @media(max-width: 550px) {
   .animeted_title, .typed-cursor {
-    font-size: 34px;
+    font-size: 30px;
   }
   
   .animeted_disc {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
