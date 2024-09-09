@@ -7,10 +7,6 @@ fetch('https://data.techforpalestine.org/api/v3/summary.min.json')
     return response.json(); // Parse the JSON data
   })
   .then(data => {
-    console.log(data)
-    
-    
-    
     // main 4 data box
     
     let totalKill;
